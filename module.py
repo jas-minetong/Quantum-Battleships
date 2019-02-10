@@ -1,7 +1,8 @@
 from qiskit import IBMQ
 import getpass, random, numpy, math
 
-IBMQ.save_account('4bfe834cab31972772bef052cfea25049d5e744e8063ae9838e11b17b0173d0b4dcf151906abef47a15cfa5170dbbd1d6017b940484a414eecee554866a21736')
+#Insert your IBMQ API token within the quotation marks below!
+IBMQ.save_account('')
 IBMQ.load_accounts()
 
 def title_screen ():
